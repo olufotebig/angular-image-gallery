@@ -1,4 +1,4 @@
-# ImageGallery - This is a simple image album using angular and cloudinary
+# ImageGallery - This is a simple image album example using angular and cloudinary (No delete feature :smile:)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0.
 
