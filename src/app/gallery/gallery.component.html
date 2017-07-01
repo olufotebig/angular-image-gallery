@@ -1,0 +1,15 @@
+<div class="row">
+	<div class="thumbs col-md-3">
+		<div *ngIf="!activeImage">Please add some photos to your album in the <a routerLink="/manager">Manager section</a> </div>
+		<cl-image *ngFor="let data of imageDataArray; let i=index"
+			[public-id]="data.public_id" class="imgThumnail" format="jpg"
+			(click)="updateActiveImage(i)"> <cl-transformation
+			height="150" width="150" crop="fill" radius="20"></cl-transformation>
+		</cl-image>
+	</div>
+	<div class="col-md-9 screen">
+		<cl-image *ngIf="activeImage" [public-id]="activeImage.public_id" class="imgThumbnail"
+			format="jpg"> <cl-transformation height="600" crop="fill"
+			radius="20"></cl-transformation> </cl-image>
+	</div>
+</div>

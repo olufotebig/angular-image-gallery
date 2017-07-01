@@ -1,0 +1,6 @@
+.my-drop-zone { border: dotted 3px lightgray; }
+.nv-file-over { border: dotted 3px red; } /* Default class applied to drop zones on over */
+
+.imgThumbnail{
+	padding: 4px;
+}

@@ -1,0 +1,5 @@
+import {AppSettings} from './appsettings';
+export let CloudinarySettings: AppSettings = {
+  cloud_name: 'CLOUD_NAME',
+  upload_preset: 'UPLOAD_PRESET'
+}
